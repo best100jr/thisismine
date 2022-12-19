@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{margin: 0 auto; padding: 0;}
+a{text-decoration: none; }
+li{list-style: none;}
+table {border-spacing: 0;}
+.clearfix::before, .clearfix::after {clear: both; display: block; content: '';}
+
+#wrap {width: 1700px; height: 920px; text-align: center; }
+#wrap1 {float: left; width: 400px; height: 920px; }
+#wrap1 .pen1 {width: 400px; height: 120px; background-color: #bfdaff;}
+#wrap1 .pen1 p {margin-left: 12px; margin-right: 12px; padding-top: 15px; font-size: 23px; color: #fff;}
+#wrap1 .pen2{ width: 400px; height: 100px;  background-color: #acc4e5;}
+#wrap1 .pen2 p {margin-left: 18px; margin-right: 18px; padding-top: 30px; font-size: 13px; color: #fff;}
+#wrap1 .pen3 {width: 400px; height: 700px; background-color: #99aecc;}
+#wrap1 .pen3 p {margin-left: 8px; margin-right: 8px; padding-top: 305px; font-size: 25px; color: #fff;}
+
+#wrap2 {float: left; width: 200px; height: 920px;}
+#wrap2 .pen1 {width: 200px; height: 170px; background-color: #80b5ff;}
+#wrap2 .pen1 p {margin-left: 2px; margin-right: 2px; padding-top: 55px; font-size: 15px; color: #ddd;}
+#wrap2 .pen2{ width: 200px; height: 500px; background-color: #73a3e5;}
+#wrap2 .pen2 p {margin-left: 1px; margin-right: 1px; padding-top: 195px; font-size: 12px; color: #ddd;}
+#wrap2 .pen3 {width: 200px; height: 250px; background-color: #6690cc;}
+#wrap2 .pen3 p {margin-left: 7px; margin-right: 7px; padding-top: 65px; font-size: 25px; color: #ddd;}
+
+#wrap3 {float: left; width: 800px; height: 920px; }
+#wrap3 .pen1 {width: 800px; height: 720px; background-color: #408fff;}
+#wrap3 .pen1 p {margin-left: 22px; margin-right: 22px; padding-top: 85px; font-size: 55px; color: #eee;}
+#wrap3 .pen2{ width: 800px; height: 150px; background-color: #3981e5;}
+#wrap3 .pen2 p {margin-left: 2px; margin-right: 2px; padding-top: 55px; font-size: 15px; color: #eee;}
+#wrap3 .pen3 {width: 800px; height: 50px; background-color: #3373cc;}
+#wrap3 .pen3 p {margin-left: 2px; margin-right: 2px; padding-top: 15px; font-size: 18px; color: #eee;}
+
+#wrap4 {float: left; width: 300px; height: 920px; }
+#wrap4 .pen1 {width: 300px; height: 320px; background-color: #006aff;}
+#wrap4 .pen1 p {margin-left: 22px; margin-right: 22px; padding-top: 135px; font-size: 15px; color: #fff;}
+#wrap4 .pen2{ width: 300px; height: 450px; background-color: #0060e5;}
+#wrap4 .pen2 p {margin-left: 12px; margin-right: 12px; padding-top: 155px; font-size: 26px; color: #fff;}
+#wrap4 .pen3 {width: 300px; height: 150px; background-color: #0055cc;}
+#wrap4 .pen3 p {margin-left: 8px; margin-right: 8px; padding-top: 55px; font-size: 15px; color: #fff;}
